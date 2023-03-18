@@ -8,7 +8,7 @@ public class KchPetClinicStudyApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(KchPetClinicStudyApplication.class, args);
-//임시 처리
+//임시 처
     }
 
 }
