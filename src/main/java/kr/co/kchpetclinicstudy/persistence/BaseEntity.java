@@ -1,11 +1,11 @@
-package kr.co.kchpetclinicstudy.persistence.entity;
+package kr.co.kchpetclinicstudy.persistence;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
-@MappedSuperclass   // 뭐지?
-@EqualsAndHashCode(of = "id", callSuper = false) // 뭐지?
+@MappedSuperclass
+@EqualsAndHashCode(of = "id", callSuper = false)
 @Getter
 public abstract class BaseEntity {
     @Id
